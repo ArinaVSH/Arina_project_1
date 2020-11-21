@@ -14,8 +14,8 @@ public class Task_10 {
                 matrix[t][i] = in.nextInt();
             }
         }
-        System.out.println("Вывод матрицы, умноженной на 3, на экран: ");
-        for (int t = 0; t < m; t++) {
+        System.out.println("Вывод 1й строки матрицы, умноженной на 3, на экран: ");
+        for (int t = 0; t < 1; t++) {
             for (int i = 0; i < n; i++) {
                 System.out.print(" " + matrix[t][i] * 3);
             }
